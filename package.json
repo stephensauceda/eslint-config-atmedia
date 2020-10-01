@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-atmedia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/stephensauceda/eslint-config-atmedia.git",
   "author": "Stephen Sauceda <contact@stephensauceda.com>",
