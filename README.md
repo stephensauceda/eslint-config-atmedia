@@ -2,6 +2,8 @@
 
 An ESLint config for our JavaScript projects
 
+![Tests](https://github.com/stephensauceda/eslint-config-atmedia/workflows/Tests/badge.svg)
+
 ## Usage
 
 1. Install the package and its dependencies in your project
