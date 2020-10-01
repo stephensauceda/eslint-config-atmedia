@@ -15,6 +15,15 @@ An ESLint config for our JavaScript projects
 ```js
 //.eslintrc
 module.exports = {
-  extends: 'atmedia'
+  extends: ['atmedia']
+};
+```
+
+We also provide a minimal config for WordPress projects. To use it:
+
+```js
+//.eslintrc
+module.exports = {
+  extends: ['atmedia', 'atmedia/wp']
 };
 ```
