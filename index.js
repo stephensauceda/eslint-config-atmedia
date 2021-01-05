@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: ['plugin:react/recommended', 'airbnb', 'prettier', 'prettier/react'],
   parser: 'babel-eslint',
   env: {
     browser: true,
@@ -22,7 +22,9 @@ module.exports = {
     'prettier/prettier': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/destructuring-assignment': ['warn', 'never']
+    'react/destructuring-assignment': ['warn', 'never'],
+    'react/jsx-props-no-spreading': 0,
+    'react/jsx-fragments': [2, 'element']
   },
   plugins: ['prettier', 'react-hooks']
 };
